@@ -1,0 +1,21 @@
+{
+  "name": "github-repository-tracker",
+  "version": "1.0.0",
+  "description": "Asynchronous JavaScript training project: GitHub Repository Tracker using Fetch API, Promises, async/await, and setInterval.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test_assignment.js",
+    "start": "npx --yes serve ."
+  },
+  "keywords": [
+    "javascript",
+    "asynchronous",
+    "fetch-api",
+    "promises",
+    "async-await",
+    "setinterval",
+    "github-api"
+  ],
+  "author": "Web Trainer",
+  "license": "MIT"
+}

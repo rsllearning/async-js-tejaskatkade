@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Repository Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>GitHub Repository Tracker</h1>
+
+  <!-- Input and Button -->
+  <div class="search-box">
+    <input type="text" id="username-input" placeholder="Enter GitHub username (e.g. octocat)">
+    <button id="search-btn">Fetch Repositories</button>
+  </div>
+
+  <!-- Status / Refresh Info -->
+  <p id="status-msg"></p>
+  <p id="timer-msg"></p>
+
+  <!-- Error Message Container -->
+  <div id="error-msg" class="error"></div>
+
+  <!-- Owner Details (Part 2) -->
+  <div id="owner-details" class="card"></div>
+
+  <!-- Repositories List (Part 1) -->
+  <div id="repos-container">
+    <h2 id="repos-heading" style="display: none;">Public Repositories</h2>
+    <div id="repos-list"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
