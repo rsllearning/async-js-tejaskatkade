@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 15px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 18px;
+  font-size: 16px;
+  background-color: #0366d6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #024ea4;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.repo-item {
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
+
+.repo-item a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.repo-item a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#timer-msg {
+  color: green;
+  font-size: 14px;
+}
